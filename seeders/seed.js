@@ -1,7 +1,7 @@
 let mongoose = require("mongoose");
 let db = require("../models");
 
-mongoose.connect("mongodb+srv://trae1357:root@cluster1.llylo.mongodb.net/test", {
+mongoose.connect("mongodb+srv://trae1357:root@cluster1.llylo.mongodb.net/workout", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
